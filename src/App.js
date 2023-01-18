@@ -6,7 +6,7 @@ function App() {
 
   useEffect(()=>{
 
-    axios.get("https://cors-everywhere.herokuapp.com/http://samplesearchdatabase-env.eba-v3ihuwv4.ap-southeast-1.elasticbeanstalk.com/api")
+    axios.get("http://samplesearchdatabase-env.eba-v3ihuwv4.ap-southeast-1.elasticbeanstalk.com/api")
     .then(response=>{
       
       if(response.status !== 200){ alert("API GG Detsu!") }
